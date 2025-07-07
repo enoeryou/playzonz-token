@@ -1,8 +1,8 @@
-# PlayZonz Token (PlayZonz) - Whitepaper
+# PlayZonz Token (PZz) - Whitepaper
 
 ## Introduction
 
-PlayZonz Token (PlayZonz) is a decentralized ERC-20 token built on the Polygon (MATIC) blockchain. It is the core utility token within the PlayZonz ecosystem, a platform aiming to merge gaming, digital ownership (NFTs), and crypto education.
+PlayZonz (PZz) is a decentralized ERC-20 token built on the Polygon (MATIC) blockchain. It is the core utility token within the PlayZonz ecosystem, a platform aiming to merge gaming, digital ownership (NFTs), and crypto education.
 
 PlayZonz was developed as an experimental and educational token to allow users to interact with smart contracts, test token use cases, and gradually grow into a broader ecosystem.
 
@@ -10,13 +10,13 @@ PlayZonz was developed as an experimental and educational token to allow users t
 
 ## Token Overview
 
-* **Token Name:** PlayZonz Token
-* **Symbol:** PlayZonz
+* **Token Name:** PlayZonz
+* **Symbol:** PZz
 * **Standard:** ERC-20
 * **Blockchain:** Polygon (Chain ID: 137)
 * **Decimals:** 18
-* **Total Supply:** 1,000,000 PlayZonz
-* **Contract Address:** [0xca5835c54e5cafb9efe662d510075b26bdd0bcfe](https://polygonscan.com/address/0xca5835c54e5cafb9efe662d510075b26bdd0bcfe)
+* **Total Supply:** 1,000,000,000 PZz
+* **Contract Address:** [0xb990d347ec2153a3fa0c0213d8cca5be28e897c6](https://polygonscan.com/address/0xb990d347ec2153a3fa0c0213d8cca5be28e897c6)
 
 ---
 
@@ -37,11 +37,11 @@ The token is implemented using OpenZeppelin's secure ERC-20 standard:
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.30;
 
-import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
+import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/ERC20.sol";
 
-contract PlayZonToken is ERC20 {
-    constructor() ERC20("PlayZonz Token", "PlayZonz") {
-        _mint(msg.sender, 1000000 * 10 ** decimals());
+contract PlayZonz is ERC20 {
+    constructor() ERC20("PlayZonz", "PZz") {
+        _mint(msg.sender, 1000000000 * 10 ** decimals());
     }
 }
 ```
@@ -63,4 +63,4 @@ contract PlayZonToken is ERC20 {
 * **Website:** [https://www.playzonz.com](https://www.playzonz.com) *(placeholder)*
 * **GitHub:** [https://github.com/enoeryou/playzonz-token](https://github.com/enoeryou/playzonz-token)
 * **Twitter:** [https://twitter.com/playzonz](https://twitter.com/playzonz) *(placeholder)*
-* **Email:** [info@playzonz.com](mailto:info@playzonz.com) *(placeholder)*
+* **Email:** [playzonz00@gmail.com](mailto:playzonz00@gmail.com) *(placeholder)*
