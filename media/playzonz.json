@@ -1,0 +1,21 @@
+{
+  "name": "PlayZonz Token List",
+  "logoURI": "https://github.com/enoeryou/playzonz-token/blob/main/media/logo512.png",
+  "keywords": ["playzonz", "pzztoken", "polygon"],
+  "timestamp": "2025-07-08T00:00:00+00:00",
+  "tokens": [
+    {
+      "chainId": 137,
+      "address": "0xb990d347ec2153a3fa0c0213d8cca5be28e897c6",
+      "name": "PlayZonz",
+      "symbol": "PZz",
+      "decimals": 18,
+      "logoURI": "https://github.com/enoeryou/playzonz-token/blob/main/media/logo512.png"
+    }
+  ],
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  }
+}
