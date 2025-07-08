@@ -60,7 +60,7 @@ contract PlayZonz is ERC20 {
 
 ## Contact & Community
 
-* **Website:** [https://www.playzonz.com](https://www.playzonz.com) *(placeholder)*
+* **Website:** [https://www.playzonz.my.id](https://www.playzonz.my.id) *(placeholder)*
 * **GitHub:** [https://github.com/enoeryou/playzonz-token](https://github.com/enoeryou/playzonz-token)
 * **Twitter:** [https://twitter.com/playzonz](https://twitter.com/playzonz) *(placeholder)*
 * **Email:** [playzonz00@gmail.com](mailto:playzonz00@gmail.com) *(placeholder)*
